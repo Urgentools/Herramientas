@@ -1,0 +1,196 @@
+.titulo_principal_div {
+  display:block;
+  margin:10px auto;
+  padding:10px;
+  background-color:#150572;
+  width:500px; /*Ancho*/
+  height:70px; /*Alto*/
+  border-radius: 25px; /*Borde*/
+  text-align: center;
+ }
+
+.titulo_principal{
+  display:block;
+  margin:5px auto;
+  padding:0px;
+  background-color:#dc2b13;
+  width:500px; /*Ancho*/
+  height:60px; /*Alto*/
+  border-radius: 25px; /*Borde*/
+  text-align: center;
+  color: #fcfdfe;
+  font-size: 30px;
+  
+}
+.div_titulo{
+  display:block;
+  margin:10px auto;
+  padding:10px;
+  background-color:#eaeef1;
+  width:50px; /*Ancho*/
+  height:250px; /*Alto*/
+  border-radius: 25px; /*Borde*/
+  text-align: center;
+}
+
+.padre_div{
+  display:block;
+  margin:0px auto;
+  padding:0px;
+  background-color:#fcfcfc;
+  width:650px; /*Ancho*/
+  height:auto; /*Alto*/
+  border-radius: 25px; /*Borde*/
+  text-align: center;
+  color: #dee9f0;
+  font-size: 20px;
+}
+
+.cajas_div{ /*REFERENCIA A TODAS LAS CAJAS DE DATOS*/
+ 
+  display:block; /*hace que se pongan al lado*/
+  background-color:#150572;
+  height: auto;
+  width: auto;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 25px; /*Borde*/
+  font-size: 24px;
+  text-align: left;
+}
+
+.titulo{
+  display: block;
+  margin:2px auto;
+  padding:10px;
+  background-color:#a6daf0;
+  width:auto; /*Ancho*/
+  height:auto; /*Alto*/
+  border-radius: 25px; /*Borde*/
+  text-align: center;
+  color: #242928;
+  font-size: 24px;
+  }
+ 
+  .titulo_Resultado{
+    display: block;
+    margin:2px auto;
+    padding:10px;
+    background-color:#c2042d;
+    width:auto; /*Ancho*/
+    height:auto; /*Alto*/
+    border-radius: 25px; /*Borde*/
+    text-align: center;
+    color: #f3f7f6;
+    font-size: 24px;
+    }
+
+
+
+  .datos{ /* Usamos # por ser un id no una clase */
+    font-size: 20px;
+    color:rgb(7, 6, 6);
+    text-align: center;
+    /*width:300px;*/
+  }
+
+  .calcular{ /* Clase boton calcular 
+    display:block; /* Bloque o linea */
+    margin: 10px auto;
+    padding: 4px;
+    text-align:center;
+    width:200px; /*Ancho*/
+    height:40px; /*Alto*/
+    font-size: 18px; /*tamaño letra*/
+    border-radius: 25px; /*Borde*/
+    color:rgb(231, 242, 243);
+    background-color:#ca4207;
+
+  }
+
+  .boton_calcular {
+    float: center;
+    margin:10px auto;
+    padding:10px;
+    background-color:#f3f7f6;
+    width: 250px; /*Ancho*/
+    height:40px; /*Alto*/
+    border-radius: 40px; /*Borde*/
+    font-size: 30px;
+    color:rgb(21, 20, 20);
+  }
+  
+
+  #boton_calcular{ /* Clase boton calcular dentro de td y que sea un botón*/
+    display:block; /* Bloque o linea */
+    margin: auto;
+    padding: 5px;
+    text-align:center;
+    width:320px; /*Ancho*/
+    height:40px; /*Alto*/
+    font-size: 20px; /*tamaño letra*/
+    border-radius: 25px; /*Borde*/
+    color:rgb(231, 242, 243);
+    background-color:#0ba725;
+    align-content: center;
+    font-size: 22px; /*tamaño letra*/
+  }
+
+  #boton_borrar{ /* Clase boton calcular dentro de td y que sea un botón*/
+    display:block; /* Bloque o linea */
+    margin: auto;
+    padding: 5px;
+    text-align:center;
+    width:100px; /*Ancho*/
+    height:30px; /*Alto*/
+    font-size: 7px; /*tamaño letra*/
+    border-radius: 25px; /*Borde*/
+    color:rgb(13, 13, 14);
+    background-color:#d6e3e4;
+    align-content: center;
+    font-size: 14px; /*tamaño letra*/
+  }
+
+.clear{
+  clear: both;
+  width:20px; /*Ancho*/
+    height:20px; /*Alto*/
+}
+
+.divresultado{
+    float: center;
+    margin:10px auto;
+    padding:10px;
+    background-color:#f3f7f6;
+    width:700px; /*Ancho*/
+    height:100px; /*Alto*/
+    border-radius: 40px; /*Borde*/
+    font-size: 30px;
+    color:rgb(21, 20, 20);
+  }
+#resultadofinal {
+        margin: auto;
+        padding:10px;
+        width:700px; /*Ancho*/
+        height:100px; /*Alto*/
+        align-content: center;
+        font-size: 20px;
+        border-radius: 40px; /*Borde*/
+        overflow-y: scroll;
+  } 
+
+#anotacion{
+  text-align:center;
+  font-size: 16px; /*tamaño letra*/
+  border-radius: 25px; /*Borde*/
+  color:rgb(192, 226, 20)
+
+}
+
+input[type="radio"]{
+  width:19px;
+  height:19px;
+  color: #c2042d;
+  background-color: #c2042d;
+
+}

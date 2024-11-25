@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="es"> 
+<head>
+
+  <link type="text/css" href="css/troponina.css" rel="stylesheet">
+
+
+<meta charset="UTF-8">
+
+<title> % Variación Troponina </title>
+
+<link rel="shortcut icon" href="favicon.png">
+
+</head>
+
+<body>
+
+
+
+<div class="titulo_principal_div"><span class="titulo_principal">% Variación Troponina</span>
+  
+
+</div>
+
+<div class="padre_div">
+
+ <! Padre >
+  <div class="cajas_div">
+
+    <div class="titulo"><span>Introducción de datos</span></td>
+    
+    </div>
+
+    <table class="datos_1_tab">
+    
+  
+    <tr><! 1>
+  
+    <td>
+      <label> Troponina inicial: </label>
+      <input class="datos" type="text" name="inicial" id="inicial" size="3" value="3">
+      </td>
+  
+    </tr>
+
+    <td>
+      <label> Troponina final: </label>
+      <input class="datos" type="text" name="final" id="final" size="3" value="1">
+      </td>
+  
+    </tr>
+
+
+    <tr><! 4>
+  
+      <td>
+      <label> Tiempo en horas: </label>
+        <input class="datos" type="text" name="horas" id="horas"  size="3" value="1.5">
+        <label> horas </label>
+       <label id="anotacion"> *** Introduce el valor den horas ( pj: 1.5 h) ***</label>
+      </td>
+      </tr>
+
+
+  </div>
+  </table>
+</div>
+
+
+</div>
+
+<!DIV BOTON CALCULAR ESCALA>
+
+<!--<div class="clear"> </div> -->
+
+<div class="boton_calcular"><input type="button" id="boton_calcular" value="Calcular % Variación">
+
+
+
+</div>
+
+<div class="boton_borrar"><input type="button" id="boton_borrar" value="Borrar datos">
+
+
+
+</div>
+
+
+ <! DIV RESULTADO **************************************************************************>
+
+<div class="clear">
+
+</div>
+
+
+<div class="divresultado">
+
+<form action="">
+
+<textarea rows=10 id="resultadofinal"></textarea>
+
+</form>
+
+</div>
+
+<! SCRIPT *************************************************************************************>
+
+
+<script src="js/troponina.js">
+  
+  </script>
+
+
+</body>
+
+
+
+</html>
